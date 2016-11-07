@@ -410,4 +410,8 @@ public class MediaPlayerService extends Service implements
         this.artImage = artImage;
         buildNotification();
     }
+
+    public MediaPlayer getMediaPlayer() {
+        return mediaPlayer;
+    }
 }

@@ -166,5 +166,7 @@ public class MediaManager {
     }
   };
 
-
+  public static MediaPlayerService getMediaPlayerService() {
+    return mService;
+  }
 }
